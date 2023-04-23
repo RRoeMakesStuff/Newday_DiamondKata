@@ -24,7 +24,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\Newday.DiamondKata.ShapeMaker\Newday.DiamondKata.ShapeMaker.csproj" />
+      <ProjectReference Include="..\..\src\Newday.DiamondKata.ShapeMaker\Newday.DiamondKata.ShapeMaker.csproj" />
     </ItemGroup>
 
 </Project>
