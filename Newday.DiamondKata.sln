@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Newday.DiamondKata.Core", "Newday.DiamondKata.Core\Newday.DiamondKata.Core.csproj", "{62B7CE6D-689D-4A7A-A4A8-EDAC9F6E0887}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Newday.DiamondKata.ShapeMaker", "Newday.DiamondKata.ShapeMaker\Newday.DiamondKata.ShapeMaker.csproj", "{8C4CD89E-39B3-418B-9F7B-061C789C5B58}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{8CC412DF-F9B5-41AE-9B4C-118A7E132DCD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{53D5DEF1-6573-4EEB-81F2-8CE59140060A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Newday.DiamondKata.Core.Tests", "Newday.DiamondKata.Core.Tests\Newday.DiamondKata.Core.Tests.csproj", "{12F8D9F3-6944-4F8F-AF59-DDE4A9180715}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Newday.DiamondKata.ShapeMaker.Tests", "Newday.DiamondKata.ShapeMaker.Tests\Newday.DiamondKata.ShapeMaker.Tests.csproj", "{8189CCD3-8E20-495E-A6EB-5566FA872652}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{62B7CE6D-689D-4A7A-A4A8-EDAC9F6E0887}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62B7CE6D-689D-4A7A-A4A8-EDAC9F6E0887}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62B7CE6D-689D-4A7A-A4A8-EDAC9F6E0887}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62B7CE6D-689D-4A7A-A4A8-EDAC9F6E0887}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C4CD89E-39B3-418B-9F7B-061C789C5B58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C4CD89E-39B3-418B-9F7B-061C789C5B58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C4CD89E-39B3-418B-9F7B-061C789C5B58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C4CD89E-39B3-418B-9F7B-061C789C5B58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12F8D9F3-6944-4F8F-AF59-DDE4A9180715}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12F8D9F3-6944-4F8F-AF59-DDE4A9180715}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12F8D9F3-6944-4F8F-AF59-DDE4A9180715}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12F8D9F3-6944-4F8F-AF59-DDE4A9180715}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8189CCD3-8E20-495E-A6EB-5566FA872652}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8189CCD3-8E20-495E-A6EB-5566FA872652}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8189CCD3-8E20-495E-A6EB-5566FA872652}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8189CCD3-8E20-495E-A6EB-5566FA872652}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{62B7CE6D-689D-4A7A-A4A8-EDAC9F6E0887} = {8CC412DF-F9B5-41AE-9B4C-118A7E132DCD}
+		{8C4CD89E-39B3-418B-9F7B-061C789C5B58} = {8CC412DF-F9B5-41AE-9B4C-118A7E132DCD}
+		{12F8D9F3-6944-4F8F-AF59-DDE4A9180715} = {53D5DEF1-6573-4EEB-81F2-8CE59140060A}
+		{8189CCD3-8E20-495E-A6EB-5566FA872652} = {53D5DEF1-6573-4EEB-81F2-8CE59140060A}
+	EndGlobalSection
+EndGlobal
